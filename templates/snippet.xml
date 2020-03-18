@@ -1,0 +1,47 @@
+<templateSet group="snippet">
+  <template name="copyright_snippet" value="/*============================================================================&#10; *                              ЗАО НТЦ &quot;Модуль&quot;&#10; *                           4-ая улица 8 марта, д.3&#10; *                               Москва, 125190&#10; *                                   Россия&#10; *&#10; * Программисты     : Pavel Morozov &lt;p.morozov@module.ru&gt;&#10; *&#10; * Начало разработки: $DATE$&#10; *&#10; * Описание         : $DESCRIPTION$&#10; *&#10; *============================================================================*/" description="copyright_snippet" toReformat="true" toShortenFQNames="true">
+    <variable name="DATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+  <template name="db" value="std::cout &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; &quot; BEGIN&quot; &lt;&lt; std::endl;" description="debug_begin_snippet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="de" value="std::cout &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; &quot; END&quot; &lt;&lt; std::endl;" description="debug_end_snippet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="cout" value="std::cout &lt;&lt; $TEXT$ &lt;&lt; std::endl;" description="std::cout" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="errWindow" value="if ($condition$)&#10;{&#10;    QString msg = Q_FUNC_INFO;&#10;    msg += &quot;\n\n$MESSAGE$&quot;;&#10;    ErrorWindow::critical(msg);&#10;    throw std::exception();&#10;}" description="ErrorWindow" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_EXPRESSION_C" value="true" />
+    </context>
+  </template>
+  <template name="dbi" value="std::cout &lt;&lt; std::string(INDENT_COUNT++ * 4, ' ') &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; &quot; BEGIN&quot; &lt;&lt; std::endl;" description="debug_begin_snippet_indent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="dei" value="std::cout &lt;&lt; std::string(--INDENT_COUNT * 4, ' ') &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; &quot; END&quot; &lt;&lt; std::endl;" description="debug_end_snippet_indent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="un" value="namespace&#10;{&#10;}   // end of unnamed namespace" description="unnamed namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>

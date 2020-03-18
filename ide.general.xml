@@ -1,0 +1,11 @@
+<application>
+  <component name="GeneralSettings">
+    <option name="confirmExit" value="false" />
+    <option name="reopenLastProject" value="false" />
+    <option name="showTipsOnStartup" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="cidr.indent.lexer.only.cpp" value="false" />
+  </component>
+</application>

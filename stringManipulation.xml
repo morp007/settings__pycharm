@@ -1,0 +1,10 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="sortSettings">
+      <SortSettings>
+        <option name="sortType" value="CASE_SENSITIVE_A_Z" />
+      </SortSettings>
+    </option>
+    <option name="version" value="2" />
+  </component>
+</application>
