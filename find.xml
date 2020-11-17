@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="VMN_01" />
-    <option name="defaultScopeName" value="VMN_01" />
+    <option name="customScope" value="RMR" />
+    <option name="defaultScopeName" value="RMR" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="VMN_01" />
+    <option name="SEARCH_SCOPE" value="RMR" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
