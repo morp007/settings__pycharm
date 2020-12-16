@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="CMake simple highlighter" shouldLog="false" />
+  </component>
+</application>
