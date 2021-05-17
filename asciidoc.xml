@@ -1,6 +1,6 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <option name="pluginVersion" value="0.32.45" />
+    <option name="pluginVersion" value="0.32.47" />
     <AsciiDocPreviewSettings KrokiUrl="" />
   </component>
 </application>
