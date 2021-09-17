@@ -6,9 +6,13 @@
           <option name="url" value="http://p.morozov@buffalo.module.ru/PO_KPA/PO_KPA_BIVK_MR.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.module.ru:s.tomina/gui_kt_gen.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\del3" />
+    <option name="cloneParentDir" value="D:\__DEL" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
