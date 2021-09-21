@@ -11,4 +11,11 @@
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
+  <tool name="YAPF" description="Run Yapf formatter on current file" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="py -3 -m yapf" />
+      <option name="PARAMETERS" value="-i $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
 </toolSet>
