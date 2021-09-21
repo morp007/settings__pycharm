@@ -1,21 +1,21 @@
 <toolSet name="External Tools">
   <tool name="flake8" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="C:\Python27\Scripts\flake8.exe" />
-      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="COMMAND" value="py" />
+      <option name="PARAMETERS" value="-3 -m flake8 &quot;$FilePath$&quot;" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="No name" />
-      <option name="DESCRIPTION" />
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
   <tool name="YAPF" description="Run Yapf formatter on current file" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="py -3 -m yapf" />
-      <option name="PARAMETERS" value="-i $FilePath$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <option name="COMMAND" value="py" />
+      <option name="PARAMETERS" value="-3 -m yapf -i $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
