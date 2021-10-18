@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="test_kt_all" type="AUTO_DETECTED" />
       <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping pattern=".yapfignore" type="PLAIN_TEXT" />
       <mapping ext="iss" type="PLAIN_TEXT" />
       <mapping ext="pkl" type="PLAIN_TEXT" />
       <mapping ext="qm" type="PLAIN_TEXT" />
