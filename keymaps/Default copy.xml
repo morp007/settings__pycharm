@@ -45,7 +45,6 @@
   <action id="EditorSelectWord" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl add" />
@@ -149,4 +148,10 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+  </action>
 </keymap>
