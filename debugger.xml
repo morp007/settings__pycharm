@@ -1,11 +1,18 @@
 <application>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <sort-values>true</sort-values>
+    </data-views>
     <general />
     <debuggers>
-      <debugger id="ObjectiveC">
+      <debugger id="javascript">
         <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+      <debugger id="python">
+        <configuration>
+          <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
     </debuggers>
