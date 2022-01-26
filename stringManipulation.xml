@@ -1,5 +1,16 @@
 <application>
   <component name="StringManipulationState">
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings>
+              <option name="sortType" value="CASE_INSENSITIVE_Z_A" />
+            </SortSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="version" value="2" />
   </component>
 </application>
