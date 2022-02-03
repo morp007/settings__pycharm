@@ -4,7 +4,9 @@
       <map>
         <entry key="SortAction">
           <value>
-            <SortSettings />
+            <SortSettings>
+              <option name="sortType" value="CASE_INSENSITIVE_Z_A" />
+            </SortSettings>
           </value>
         </entry>
       </map>
