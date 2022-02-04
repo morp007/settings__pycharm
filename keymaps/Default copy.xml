@@ -42,6 +42,9 @@
   <action id="EditorDuplicate" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
+  <action id="EditorSearchSession.ToggleRegex">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl u" />
