@@ -9,6 +9,7 @@
   </action>
   <action id="CIDR.Lang.IntroduceParameter" />
   <action id="ChangesView.Diff" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -91,6 +92,8 @@
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="JumpToLastWindow" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift ctrl 8" />
   </action>
@@ -123,6 +126,10 @@
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="Resume" />
   <action id="Run">
