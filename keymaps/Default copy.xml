@@ -152,6 +152,12 @@
   </action>
   <action id="ToggleBookmark2" />
   <action id="ToggleBookmark8" />
+  <action id="Tool_External Tools_formatter (YAPF)">
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+  </action>
+  <action id="Tool_External Tools_linter (flake8)">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
