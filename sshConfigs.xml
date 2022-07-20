@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="farm_server" id="3b22e801-b01f-4c89-8755-da6458dfcbc4" keyPath="$USER_HOME$/.ssh/id_ed25519" port="22" nameFormat="DESCRIPTIVE" username="pigmorozov" useOpenSSHConfig="true" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="my_farm" id="3b22e801-b01f-4c89-8755-da6458dfcbc4" keyPath="$USER_HOME$/.ssh/id_ed25519" port="22" nameFormat="DESCRIPTIVE" username="farm" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
