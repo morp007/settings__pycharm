@@ -3,14 +3,14 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.ini</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.md</mask>
-    <mask>*.py</mask>
     <mask>*.json</mask>
+    <mask>*.py</mask>
   </component>
 </application>
