@@ -8,6 +8,7 @@
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern=".yapfignore" type="PLAIN_TEXT" />
       <mapping ext="iss" type="PLAIN_TEXT" />
+      <mapping ext="odp" type="PLAIN_TEXT" />
       <mapping ext="pkl" type="PLAIN_TEXT" />
       <mapping ext="qm" type="PLAIN_TEXT" />
       <mapping ext="wav" type="PLAIN_TEXT" />
