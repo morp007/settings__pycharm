@@ -1,5 +1,5 @@
 <templateSet group="Python">
-  <template name="region" value="# region $region_name$&#10;$END$&#10;# endregion" toReformat="false" toShortenFQNames="true">
+  <template name="region" value="# region $region_name$&#10;$END$&#10;# endregion" description="" toReformat="false" toShortenFQNames="true">
     <variable name="region_name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
