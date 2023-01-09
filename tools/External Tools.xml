@@ -33,7 +33,7 @@
   <tool name="formatter all (YAPF)" description="Run Yapf formatter" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="python3" />
-      <option name="PARAMETERS" value="-m yapf -dr ." />
+      <option name="PARAMETERS" value="-m yapf -ri ." />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
