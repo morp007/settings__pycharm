@@ -14,6 +14,10 @@
           <option name="url" value="http://gl.sberdevices.ru" />
           <option name="userName" value="pigmorozov" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.sbrdvc.xyz" />
+          <option name="userName" value="pigmorozov" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\__DEL" />
