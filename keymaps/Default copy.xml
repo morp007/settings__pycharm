@@ -67,6 +67,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt equals" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl p" />
@@ -162,6 +165,14 @@
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
