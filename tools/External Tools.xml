@@ -1,38 +1,62 @@
 <toolSet name="External Tools">
   <tool name="linter (flake8)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="python3" />
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
       <option name="PARAMETERS" value="-m flake8 &quot;$FilePath$&quot;" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="No name" />
-      <option name="DESCRIPTION" />
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
   <tool name="linter all (flake8)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="python3" />
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
       <option name="PARAMETERS" value="-m flake8" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="No name" />
-      <option name="DESCRIPTION" />
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
+      <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
+    </filter>
+  </tool>
+  <tool name="linter (mypy)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
+      <option name="PARAMETERS" value="-m mypy --check-untyped-defs &quot;$FilePath$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
+      <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
+    </filter>
+  </tool>
+  <tool name="linter all (mypy)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
+      <option name="PARAMETERS" value="-m mypy --check-untyped-defs ." />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
     </filter>
   </tool>
   <tool name="formatter (YAPF)" description="Run Yapf formatter on current file" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="python3" />
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
       <option name="PARAMETERS" value="-m yapf -i $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
   <tool name="formatter all (YAPF)" description="Run Yapf formatter" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="python3" />
+      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
       <option name="PARAMETERS" value="-m yapf -ri ." />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
