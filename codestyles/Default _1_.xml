@@ -59,10 +59,14 @@
   </Python>
   <XML>
     <option name="XML_ATTRIBUTE_WRAP" value="0" />
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="CMake">
     <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="ObjectiveC">
     <option name="BRACE_STYLE" value="2" />
