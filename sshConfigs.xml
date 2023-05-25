@@ -5,6 +5,7 @@
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="my_farm" id="dc77f038-3f3b-473e-bca8-712748e77101" port="22" nameFormat="DESCRIPTIVE" username="farm" useOpenSSHConfig="true" />
       <sshConfig authType="PASSWORD" host="farm_nuc_lava" id="edf8e0c2-d4e7-44d2-8f2e-1b351509ec57" port="22" nameFormat="DESCRIPTIVE" username="scripthound" useOpenSSHConfig="true" />
       <sshConfig authType="OPEN_SSH" host="192.168.11.92" id="bba5120e-6020-4575-815f-96b0f4f19b7d" port="22" nameFormat="DESCRIPTIVE" username="gyroklim" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.2.120" id="69b611d1-4eef-44ce-8201-dd692442bd03" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="20142794" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
